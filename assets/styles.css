@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'misobold';
+    src: url('fonts/miso-bold-webfont.woff2') format('woff2'), url('assets/fonts/miso-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'misoregular';
+    src: url('fonts/miso-regular-webfont.woff2') format('woff2'), url('fonts/miso-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latolight';
+    src: url('fonts/lato-light-webfont.woff2') format('woff2'), url('fonts/lato-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+.price {
+    font-family: 'misobold', 'arial', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.name {
+    font-family: 'misoregular', 'arial', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.discount {
+    font-family: 'latolight', 'arial', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+main {
+    justify-content: space-between;
+    background-color: #fdde7e;
+    display: flex;
+    margin: 40px auto;
+    max-width: 1200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+section {
+    background-color: #ffffff;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+section:nth-child(even) {
+    height: 502px;
+    padding-top: 4.5%; 
+    padding-bottom: 4.5%;
+    box-shadow: 0 3px 3px 0 #ceb567;
+    
+}
+section:nth-child(odd) {
+    height: 443px;
+    padding-top: 3.6%; 
+    padding-bottom: 3.6%;
+    
+}
+section:first-child {
+    margin-left: 2.5%; 
+    box-shadow: 0 3px 3px 0 #ceb567;
+}
+
+section:last-child {
+    margin-right: 2.5%;
+    box-shadow: 1px 3px 7px 1px #ceb567;
+}
+h2 {
+    font-size: 70px;
+    color: #02995b;
+    margin: 0;
+}
+h2:nth-child(3) {
+    font-size: 50px;
+    color: black;
+}
+p {
+    font-size: 18px;
+    width: 42.3%;
+    margin: 0;
+    text-align: center;
+    margin: 0;
+}
